@@ -1,0 +1,16 @@
+{
+    "expo": {
+      "name": "All Things FAIR evaluations",
+      "description": "Evaluate how FAIR is a resource URL with the F-UJI API (Findable, Accessible, Interoperable, Reusable)",
+      "slug": "allthingsfair ",
+      "privacy": "public",
+      "sdkVersion": "35.0.0",
+      "platforms": ["web"],
+      "version": "0.0.1",
+      "icon": "./assets/icon.png",
+      "orientation": "portrait",
+      "packagerOpts": {
+        "assetExts": ["html"]
+      }
+    }
+  }  
