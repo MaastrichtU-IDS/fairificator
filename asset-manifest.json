@@ -1,23 +1,23 @@
 {
   "files": {
-    "app.js": "/allthingsfair/static/js/app.14c473a3.chunk.js",
-    "app.js.map": "/allthingsfair/static/js/app.14c473a3.chunk.js.map",
+    "app.js": "/allthingsfair/static/js/app.74d61c5d.chunk.js",
+    "app.js.map": "/allthingsfair/static/js/app.74d61c5d.chunk.js.map",
     "runtime~app.js": "/allthingsfair/static/js/runtime~app.e613bda1.js",
     "runtime~app.js.map": "/allthingsfair/static/js/runtime~app.e613bda1.js.map",
-    "static/js/2.5f294bf8.chunk.js": "/allthingsfair/static/js/2.5f294bf8.chunk.js",
-    "static/js/2.5f294bf8.chunk.js.map": "/allthingsfair/static/js/2.5f294bf8.chunk.js.map",
+    "static/js/2.b2a5c145.chunk.js": "/allthingsfair/static/js/2.b2a5c145.chunk.js",
+    "static/js/2.b2a5c145.chunk.js.map": "/allthingsfair/static/js/2.b2a5c145.chunk.js.map",
     "favicon-16.png": "/allthingsfair/favicon-16.png",
     "favicon-32.png": "/allthingsfair/favicon-32.png",
     "favicon.ico": "/allthingsfair/favicon.ico",
     "index.html": "/allthingsfair/index.html",
     "manifest.json": "/allthingsfair/manifest.json",
     "serve.json": "/allthingsfair/serve.json",
-    "static/js/2.5f294bf8.chunk.js.LICENSE.txt": "/allthingsfair/static/js/2.5f294bf8.chunk.js.LICENSE.txt",
+    "static/js/2.b2a5c145.chunk.js.LICENSE.txt": "/allthingsfair/static/js/2.b2a5c145.chunk.js.LICENSE.txt",
     "static/media/icon.png": "/allthingsfair/static/media/icon.72626586.png"
   },
   "entrypoints": [
     "static/js/runtime~app.e613bda1.js",
-    "static/js/2.5f294bf8.chunk.js",
-    "static/js/app.14c473a3.chunk.js"
+    "static/js/2.b2a5c145.chunk.js",
+    "static/js/app.74d61c5d.chunk.js"
   ]
 }
