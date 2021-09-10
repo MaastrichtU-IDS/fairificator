@@ -1,9 +1,10 @@
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { Link } from "react-router-dom";
 import { AppBar, Toolbar, Button, Tooltip } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InfoIcon from '@material-ui/icons/Info';
+import ApiIcon from '@material-ui/icons/Send';
 
 // @ts-ignore
 import iconImage from '../../assets/icon.png';
@@ -37,6 +38,7 @@ const useStyles = makeStyles(theme => ({
   
 export default function NavBar() {
   const classes = useStyles();
+  const theme = useTheme();
 
   return (
     <AppBar title="" position='static'>
@@ -55,6 +57,14 @@ export default function NavBar() {
             </Button>
           </Tooltip>
         </Link>
+        {/* TODO: add URL link to the FUJI API */}
+        <Tooltip title='Access the grlc OpenAPI (which query the SPARQL endpoint)'>
+          <Button className={classes.menuButton} target="_blank" rel="noopener noreferrer"
+          href="https://fuji-137-120-31-148.sslip.io/fuji/api/v1/ui">
+            <ApiIcon style={{ marginRight: theme.spacing(1)}} />
+            API
+          </Button>
+        </Tooltip>
         <Tooltip title='Go to https://github.com/MaastrichtU-IDS/allthingsfair '>
           <Button className={classes.menuButton} target="_blank"
           href="https://github.com/MaastrichtU-IDS/allthingsfair ">

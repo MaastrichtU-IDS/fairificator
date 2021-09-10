@@ -12,6 +12,8 @@ Deployed as a static website on [GitHub Pages](https://pages.github.com/).
 
 Access the website at **[https://maastrichtu-ids.github.io/allthingsfair 🔗](https://maastrichtu-ids.github.io/allthingsfair)**
 
+It uses the API hosted at https://fuji-137-120-31-148.sslip.io/fuji/api/v1/ui
+
 You can provide the resource URL to evaluate directly as a URL parameter to load the evaluation for a specific URL with `?evaluate=https://resource`
 
 ## Run in development 🏗️
