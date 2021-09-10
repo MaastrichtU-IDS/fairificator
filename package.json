@@ -41,6 +41,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d web-build"
   },
-  "homepage": "https://maastrichtu-ids.github.io/fairificator",
+  "homepage": "https://maastrichtu-ids.github.io/allthingsfair",
   "private": true
 }
