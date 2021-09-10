@@ -108,7 +108,8 @@ export default function Evaluation() {
     // and passed to renderObjectForm to resolve classes and properties
     const params = new URLSearchParams(location.search + location.hash);
     let evaluateUrl = params.get('evaluate');
-    const fujiApi = process.env['FUJI_API'] || 'http://fuji.137.120.31.148.nip.io/fuji/api/v1'
+    // const fujiApi = process.env['FUJI_API'] || 'http://fuji.137.120.31.148.nip.io/fuji/api/v1'
+    const fujiApi = process.env['FUJI_API'] || 'https://fuji-137-120-31-148.sslip.io/fuji/api/v1'
     updateState({ fujiApi: fujiApi })
     // const fujiApi = process.env['FUJI_API'] || 'http://localhost:1071/fuji/api/v1/evaluate'
 
