@@ -2,23 +2,23 @@
   "description": "Evaluate how FAIR is a resource URL with the F-UJI API (Findable, Accessible, Interoperable, Reusable)",
   "display": "standalone",
   "lang": "en",
-  "name": "All Things FAIR evaluations",
-  "short_name": "All Things FAIR evaluations",
+  "name": "FAIRificator",
+  "short_name": "FAIRificator",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/allthingsfair/pwa/chrome-icon/chrome-icon-144.png",
+      "src": "/fairificator/pwa/chrome-icon/chrome-icon-144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/allthingsfair/pwa/chrome-icon/chrome-icon-192.png",
+      "src": "/fairificator/pwa/chrome-icon/chrome-icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/allthingsfair/pwa/chrome-icon/chrome-icon-512.png",
+      "src": "/fairificator/pwa/chrome-icon/chrome-icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

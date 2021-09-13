@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/allthingsfair/precache-manifest.7ed6dfb82c812bcf18562146dfff21d2.js"
+  "/fairificator/precache-manifest.cdda7a208c781a8f36a736c93a8bab41.js"
 );
 
 workbox.skipWaiting();
@@ -29,7 +29,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/allthingsfair/index.html", {
+workbox.routing.registerNavigationRoute("/fairificator/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
