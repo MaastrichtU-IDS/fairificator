@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "1f264270ee2a884b92ce",
-    "url": "/allthingsfair/static/js/app.dc74c52b.chunk.js"
+    "revision": "d4bd983dbcbf5d6eba3e",
+    "url": "/allthingsfair/static/js/app.fe314f18.chunk.js"
   },
   {
     "revision": "309bdb1f45371a68959a",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/allthingsfair/static/media/icon.72626586.png"
   },
   {
-    "revision": "af1d2347c375fce1e66384915caddd36",
+    "revision": "6591723e0fcb44290c6041ccef110cf3",
     "url": "/allthingsfair/index.html"
   },
   {
