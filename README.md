@@ -1,18 +1,16 @@
-[![Deploy to GitHub Pages](https://github.com/MaastrichtU-IDS/allthingsfair/workflows/Deploy%20website%20to%20GitHub%20Pages/badge.svg)](https://github.com/MaastrichtU-IDS/allthingsfair/actions/workflows/deploy-github.yml) [![CodeQL analysis](https://github.com/MaastrichtU-IDS/allthingsfair/workflows/CodeQL%20analysis/badge.svg)](https://github.com/MaastrichtU-IDS/allthingsfair/actions/workflows/codeql-analysis.yml)
-
 # All Things FAIR evaluation tool
 
-Evaluate how FAIR (Findable, Accessible, Interoperable, Reusable) is a resource URL with the [F-UJI API](https://github.com/pangaea-data-publisher/fuji)
+[![Deploy to GitHub Pages](https://github.com/MaastrichtU-IDS/allthingsfair/workflows/Deploy%20website%20to%20GitHub%20Pages/badge.svg)](https://github.com/MaastrichtU-IDS/allthingsfair/actions/workflows/deploy-github.yml) [![CodeQL analysis](https://github.com/MaastrichtU-IDS/allthingsfair/workflows/CodeQL%20analysis/badge.svg)](https://github.com/MaastrichtU-IDS/allthingsfair/actions/workflows/codeql-analysis.yml)
 
-Built with [TypeScript](https://www.typescriptlang.org/), [React](https://reactjs.org/), and [Material-UI](https://material-ui.com/).
+Evaluate how FAIR (Findable, Accessible, Interoperable, Reusable) is a resource URL with the [FAIRsFAIR F-UJI API](https://github.com/pangaea-data-publisher/fuji)
 
-Deployed as a static website on [GitHub Pages](https://pages.github.com/).
+Built with [TypeScript](https://www.typescriptlang.org/), [React](https://reactjs.org/), and [Material-UI](https://material-ui.com/). Deployed as a static website on [GitHub Pages](https://pages.github.com/).
 
 ## Access 👩‍💻
 
 Access the website at **[https://maastrichtu-ids.github.io/allthingsfair 🔗](https://maastrichtu-ids.github.io/allthingsfair)**
 
-It uses the API hosted at https://fuji-137-120-31-148.sslip.io/fuji/api/v1/ui
+It uses the F-UJI API hosted at https://fuji-137-120-31-148.sslip.io/fuji/api/v1/ui
 
 You can provide the resource URL to evaluate directly as a URL parameter to load the evaluation for a specific URL with `?evaluate=https://resource`
 

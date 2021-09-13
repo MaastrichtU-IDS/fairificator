@@ -77,9 +77,9 @@ export default function Evaluation() {
   let resourceMetadata: any = null;
   let fairDoughnutConfig: any = null;
   const [state, setState] = React.useState({
+    fujiApi: 'https://fuji-137-120-31-148.sslip.io/fuji/api/v1',
     urlToEvaluate: "https://doi.org/10.1594/PANGAEA.908011",
     // urlToEvaluate: "https://doi.org/10.1038/sdata.2016.18",
-    fujiApi: 'https://fuji-137-120-31-148.sslip.io/fuji/api/v1',
     metadata_service_type: 'oai_pmh',
     metadata_service_endpoint: 'https://ws.pangaea.de/oai/provider',
     use_datacite: true,
@@ -235,7 +235,7 @@ export default function Evaluation() {
             scores.F1 + '%'+ " Persistent identifier",
             scores.F2 + '%'+ " Findability metadata",
             scores.F3 + '%'+ " Data identifier",
-            scores.F4 + '%'+ "Programmatic retrieval",
+            scores.F4 + '%'+ " Programmatic retrieval",
           ]
         }
         // Inner doughnut data ends
@@ -263,14 +263,15 @@ export default function Evaluation() {
         },
         plugins: {
           datalabels: {
-              formatter: function(value: any, context: any) {
-                if (context.datasetIndex == 0) {
-                  context.font = "bold 20em Montserrat";
-                  return context.dataset.labels[context.dataIndex];
-                } else {
-                  return context.dataset.labels[context.dataIndex];
-                }
+            color: 'black',
+            formatter: function(value: any, context: any) {
+              if (context.datasetIndex == 0) {
+                context.font = "bold 20em Montserrat";
+                return context.dataset.labels[context.dataIndex];
+              } else {
+                return context.dataset.labels[context.dataIndex];
               }
+            }
           }
         }
       }
