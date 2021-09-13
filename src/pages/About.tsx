@@ -3,33 +3,13 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Container, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
-  settingsForm: {
-    width: '100%',
-    // textAlign: 'center',
-    '& .MuiFormControl-root': {
-      marginTop: theme.spacing(1),
-      marginBottom: theme.spacing(1),
+  link: {
+    textDecoration: 'none',
+    color: theme.palette.primary.main,
+    '&:hover': {
+      color: theme.palette.secondary.main,
+      textDecoration: 'none',
     },
-    '& .MuiFormHelperText-root': {
-      marginTop: theme.spacing(0),
-      marginBottom: theme.spacing(1),
-    },
-  },
-  saveButton: {
-    textTransform: 'none',
-    margin: theme.spacing(2, 2),
-  },
-  fullWidth: {
-    width: '100%',
-  },
-  normalFont: {
-    fontSize: '14px',
-  },
-  smallerFont: {
-    fontSize: '12px',
-  },
-  alignLeft: {
-    textAlign: 'left'
   },
   paperPadding: {
     padding: theme.spacing(2, 2),
@@ -38,6 +18,10 @@ const useStyles = makeStyles(theme => ({
   paperTitle: {
     fontWeight: 300,
     marginBottom: theme.spacing(1),
+  },
+  mainText: {
+    textAlign: 'center', 
+    marginBottom: '20px'
   }
 }))
 
@@ -58,9 +42,15 @@ export default function About() {
           About
         </Typography> */}
 
-      <Typography variant="body1" style={{textAlign: 'center', marginBottom: '20px'}}>
-        A UI to evaluate how a resource (URL) follows to the FAIR principles (Findable, Accessible, Interoperable, Reusable)
-      </Typography>      
+      <Typography variant="body1" className={classes.mainText}>
+        A web interface to evaluate how much a resource URL follows to the <a href="https://www.go-fair.org/fair-principles" className={classes.link} target="_blank" rel="noopener noreferrer">FAIR principles ♻️</a> (Findable, Accessible, Interoperable, Reusable).
+      </Typography>
+      <Typography variant="body1" className={classes.mainText}>
+        Built with <a href="https://github.com/pangaea-data-publisher/fuji" className={classes.link} target="_blank" rel="noopener noreferrer">PANGAEA F-UJI API 🌍️</a>
+      </Typography>
+      <Typography variant="body1" className={classes.mainText}>
+        Relies on a <a href="https://github.com/vemonet/fuji" className={classes.link} target="_blank" rel="noopener noreferrer">custom F-UJI API</a> hosted by the <a href="https://www.maastrichtuniversity.nl/research/institute-data-science" className={classes.link} target="_blank" rel="noopener noreferrer">Institute of Data Science</a> at Maastricht University.
+      </Typography>
       
 
     </Container>

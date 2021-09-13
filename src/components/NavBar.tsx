@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { AppBar, Toolbar, Button, Tooltip } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InfoIcon from '@material-ui/icons/Info';
-import ApiIcon from '@material-ui/icons/Send';
+import ApiIcon from '@material-ui/icons/Http';
 
 // @ts-ignore
 import iconImage from '../../assets/icon.png';
@@ -50,22 +50,21 @@ export default function NavBar() {
         </Link>
         <div className="flexGrow"></div>
 
-        <Link to="/about" className={classes.linkButton}>
-          <Tooltip title='About the FAIR evaluation tool'>
-            <Button className={classes.menuButton}>
-              <InfoIcon />
-            </Button>
-          </Tooltip>
-        </Link>
-        {/* TODO: add URL link to the FUJI API */}
-        <Tooltip title='Access the grlc OpenAPI (which query the SPARQL endpoint)'>
+        <Tooltip title='Access the FUJI API used by this web interface'>
           <Button className={classes.menuButton} target="_blank" rel="noopener noreferrer"
           href="https://fuji-137-120-31-148.sslip.io/fuji/api/v1/ui">
             <ApiIcon style={{ marginRight: theme.spacing(1)}} />
             API
           </Button>
         </Tooltip>
-        <Tooltip title='Go to https://github.com/MaastrichtU-IDS/allthingsfair '>
+        <Link to="/about" className={classes.linkButton}>
+          <Tooltip title='About'>
+            <Button className={classes.menuButton}>
+              <InfoIcon />
+            </Button>
+          </Tooltip>
+        </Link>
+        <Tooltip title='Source code'>
           <Button className={classes.menuButton} target="_blank"
           href="https://github.com/MaastrichtU-IDS/allthingsfair ">
             <GitHubIcon />
