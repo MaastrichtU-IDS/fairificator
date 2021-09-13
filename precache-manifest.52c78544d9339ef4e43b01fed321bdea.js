@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "bf008b936727ec90154c",
-    "url": "/allthingsfair/static/js/app.74d61c5d.chunk.js"
+    "revision": "1f264270ee2a884b92ce",
+    "url": "/allthingsfair/static/js/app.dc74c52b.chunk.js"
   },
   {
     "revision": "309bdb1f45371a68959a",
     "url": "/allthingsfair/static/js/runtime~app.e613bda1.js"
   },
   {
-    "revision": "d24ba8e6c63d5711d359",
-    "url": "/allthingsfair/static/js/2.b2a5c145.chunk.js"
+    "revision": "67a135ea04ee55fc837a",
+    "url": "/allthingsfair/static/js/2.17151d4c.chunk.js"
   },
   {
     "revision": "951e6ef1c62c25b9b10b081968119584",
     "url": "/allthingsfair/static/media/icon.72626586.png"
   },
   {
-    "revision": "c3fe6af9b3fadaf7719857e86e9ab60b",
+    "revision": "af1d2347c375fce1e66384915caddd36",
     "url": "/allthingsfair/index.html"
   },
   {
@@ -33,7 +33,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "6d27e9b12da6cfd2b00bcff22b632746",
-    "url": "/allthingsfair/static/js/2.b2a5c145.chunk.js.LICENSE.txt"
+    "url": "/allthingsfair/static/js/2.17151d4c.chunk.js.LICENSE.txt"
   },
   {
     "revision": "e78221aba04ce077cb705ff3c8d2bc05",

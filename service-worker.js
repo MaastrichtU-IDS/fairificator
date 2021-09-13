@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/allthingsfair/precache-manifest.5d24a787558fdbdc956bb8795f0327bf.js"
+  "/allthingsfair/precache-manifest.52c78544d9339ef4e43b01fed321bdea.js"
 );
 
 workbox.skipWaiting();
