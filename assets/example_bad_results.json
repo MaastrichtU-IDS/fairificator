@@ -2,10 +2,10 @@
     "metric_specification": "https://doi.org/10.5281/zenodo.4081213",
     "metric_version": "metrics_v0.4.yaml",
     "request": {
-        "metadata_service_endpoint": "https://maastrichtu-ids.github.io/allthingsfair/",
+        "metadata_service_endpoint": "https://maastrichtu-ids.github.io/fairificator/",
         "metadata_service_type": "oai_pmh",
         "oaipmh_endpoint": null,
-        "object_identifier": "https://maastrichtu-ids.github.io/allthingsfair/",
+        "object_identifier": "https://maastrichtu-ids.github.io/fairificator/",
         "test_debug": true,
         "use_datacite": true
     },
@@ -30,7 +30,7 @@
                 }
             },
             "output": {
-                "guid": "https://maastrichtu-ids.github.io/allthingsfair/",
+                "guid": "https://maastrichtu-ids.github.io/fairificator/",
                 "guid_scheme": "url"
             },
             "score": {
@@ -67,7 +67,7 @@
                 "pid": null,
                 "pid_scheme": null,
                 "resolvable_status": true,
-                "resolved_url": "https://maastrichtu-ids.github.io/allthingsfair/"
+                "resolved_url": "https://maastrichtu-ids.github.io/fairificator/"
             },
             "score": {
                 "earned": 0,
@@ -75,7 +75,7 @@
             },
             "test_debug": [
                 "INFO: PID schemes-based assessment supported by the assessment service - ['ark', 'arxiv', 'bioproject', 'biosample', 'doi', 'ensembl', 'genome', 'gnd', 'handle', 'lsid', 'pmid', 'pmcid', 'purl', 'refseq', 'sra', 'uniprot', 'urn']",
-                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/allthingsfair/ as text/html, application/xhtml+xml, application/xml;q=0.5, text/xml;q=0.5, application/rdf+xml;q=0.5",
+                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/fairificator/ as text/html, application/xhtml+xml, application/xml;q=0.5, text/xml;q=0.5, application/rdf+xml;q=0.5",
                 "INFO: Content negotiation accept=text/html, application/xhtml+xml, application/xml;q=0.5, text/xml;q=0.5, application/rdf+xml;q=0.5, status=200",
                 "INFO: Found HTML page!",
                 "INFO: Object identifier active (status code = 200)",
@@ -142,7 +142,7 @@
                 "total": 2
             },
             "test_debug": [
-                "INFO: Starting to identify EMBEDDED metadata at -: https://maastrichtu-ids.github.io/allthingsfair/",
+                "INFO: Starting to identify EMBEDDED metadata at -: https://maastrichtu-ids.github.io/fairificator/",
                 "INFO: Trying to retrieve schema.org JSON-LD metadata from html page",
                 "INFO: Could not identify JSON-LD schema.org metadata",
                 "INFO: schema.org JSON-LD metadata in html page UNAVAILABLE",
@@ -157,19 +157,19 @@
                 "INFO: Trying to identify Typed Links in html page",
                 "INFO: Starting to identify EXTERNAL metadata through content negotiation or typed links",
                 "INFO: Trying to retrieve XML metadata through content negotiation",
-                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/allthingsfair/ as application/xml, text/xml;q=0.5",
+                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/fairificator/ as application/xml, text/xml;q=0.5",
                 "INFO: Content negotiation accept=application/xml, text/xml;q=0.5, status=200",
                 "INFO: Ignoring HTML response",
                 "INFO: Trying to extract/parse metadata from -: Generic XML (Negotiated)",
                 "INFO: Expected XML but content negotiation responded -: html",
                 "INFO: Trying to retrieve schema.org JSON-LD metadata through content negotiation",
-                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/allthingsfair/ as application/vnd.schemaorg.ld+json, application/ld+json",
+                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/fairificator/ as application/vnd.schemaorg.ld+json, application/ld+json",
                 "INFO: Content negotiation accept=application/vnd.schemaorg.ld+json, application/ld+json, status=200",
                 "INFO: Ignoring HTML response",
                 "INFO: Could not identify JSON-LD schema.org metadata",
                 "INFO: Schema.org metadata through content negotiation UNAVAILABLE",
                 "INFO: Trying to retrieve RDF metadata through content negotiation",
-                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/allthingsfair/ as text/turtle, application/turtle, application/x-turtle;q=0.8, application/rdf+xml, text/n3;q=0.9, text/rdf+n3;q=0.9,application/ld+json",
+                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/fairificator/ as text/turtle, application/turtle, application/x-turtle;q=0.8, application/rdf+xml, text/n3;q=0.9, text/rdf+n3;q=0.9,application/ld+json",
                 "INFO: Content negotiation accept=text/turtle, application/turtle, application/x-turtle;q=0.8, application/rdf+xml, text/n3;q=0.9, text/rdf+n3;q=0.9,application/ld+json, status=200",
                 "INFO: Ignoring HTML response",
                 "INFO: Expected RDF Graph but received -: text/html",
@@ -246,10 +246,10 @@
                 "WARNING: Metadata is NOT found through -: ['Schema.org JSON-LD (Negotiated)', 'Schema.org JSON-LD (Embedded)', 'Embedded DublinCore', 'Embedded RDFa']",
                 "WARNING: Google Search DOI File does not exist, see F-UJI installation instructions",
                 "WARNING: Google Search URL File does not exist, see F-UJI installation instructions",
-                "INFO: Querying Google Dataset Search cache for -:https://maastrichtu-ids.github.io/allthingsfair/",
-                "INFO: Identifier not listed in Google Dataset Search cache -:https://maastrichtu-ids.github.io/allthingsfair/",
-                "INFO: Querying Mendeley Data API for -:https://maastrichtu-ids.github.io/allthingsfair/",
-                "INFO: Identifier not listed in Mendeley Data catalogue -:https://maastrichtu-ids.github.io/allthingsfair/",
+                "INFO: Querying Google Dataset Search cache for -:https://maastrichtu-ids.github.io/fairificator/",
+                "INFO: Identifier not listed in Google Dataset Search cache -:https://maastrichtu-ids.github.io/fairificator/",
+                "INFO: Querying Mendeley Data API for -:https://maastrichtu-ids.github.io/fairificator/",
+                "INFO: Identifier not listed in Mendeley Data catalogue -:https://maastrichtu-ids.github.io/fairificator/",
                 "WARNING: Metadata is NOT found through registries considered by the assessment service  -: ['Datacite Search', 'DataCite Registry', <Sources.MENDELEY_DATA: 'Mendeley Data'>, <Sources.GOOGLE_DATASET: 'Google Dataset Search'>]"
             ],
             "test_status": "fail"
@@ -563,10 +563,10 @@
             "test_debug": [
                 "INFO: Retrieving API and Standards",
                 "INFO: re3data/datacite client id -: None",
-                "INFO: Metadata service endpoint (oai_pmh) provided as part of the request -: https://maastrichtu-ids.github.io/allthingsfair/",
+                "INFO: Metadata service endpoint (oai_pmh) provided as part of the request -: https://maastrichtu-ids.github.io/fairificator/",
                 "INFO: Trying to retrieve metadata info from re3data/datacite services using client id -: None",
-                "INFO: Use OAI-PMH endpoint to retrieve standards used by the repository -: https://maastrichtu-ids.github.io/allthingsfair/",
-                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/allthingsfair/?verb=ListMetadataFormats as application/xml, text/xml;q=0.5",
+                "INFO: Use OAI-PMH endpoint to retrieve standards used by the repository -: https://maastrichtu-ids.github.io/fairificator/",
+                "INFO: Retrieving page -: https://maastrichtu-ids.github.io/fairificator/?verb=ListMetadataFormats as application/xml, text/xml;q=0.5",
                 "INFO: Content negotiation accept=application/xml, text/xml;q=0.5, status=200",
                 "INFO: Ignoring HTML response",
                 "WARNING: NO metadata standard(s) of the repository specified in re3data",

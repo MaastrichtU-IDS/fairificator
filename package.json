@@ -1,5 +1,5 @@
 {
-  "homepage": "https://maastrichtu-ids.github.io/allthingsfair",
+  "homepage": "https://maastrichtu-ids.github.io/fairificator",
   "private": true,
   "scripts": {
     "android": "expo start --android",

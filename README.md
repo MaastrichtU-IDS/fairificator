@@ -1,6 +1,6 @@
-# All Things FAIR evaluation tool
+# FAIRificator, FAIR evaluation tool
 
-[![Deploy to GitHub Pages](https://github.com/MaastrichtU-IDS/allthingsfair/workflows/Deploy%20website%20to%20GitHub%20Pages/badge.svg)](https://github.com/MaastrichtU-IDS/allthingsfair/actions/workflows/deploy-github.yml) [![CodeQL analysis](https://github.com/MaastrichtU-IDS/allthingsfair/workflows/CodeQL%20analysis/badge.svg)](https://github.com/MaastrichtU-IDS/allthingsfair/actions/workflows/codeql-analysis.yml)
+[![Deploy to GitHub Pages](https://github.com/MaastrichtU-IDS/fairificator/workflows/Deploy%20website%20to%20GitHub%20Pages/badge.svg)](https://github.com/MaastrichtU-IDS/fairificator/actions/workflows/deploy-github.yml) [![CodeQL analysis](https://github.com/MaastrichtU-IDS/fairificator/workflows/CodeQL%20analysis/badge.svg)](https://github.com/MaastrichtU-IDS/fairificator/actions/workflows/codeql-analysis.yml)
 
 Evaluate how FAIR (Findable, Accessible, Interoperable, Reusable) is a resource URL with the [FAIRsFAIR F-UJI API](https://github.com/pangaea-data-publisher/fuji)
 
@@ -8,7 +8,7 @@ Built with [TypeScript](https://www.typescriptlang.org/), [React](https://reactj
 
 ## Access 👩‍💻
 
-Access the website at **[https://maastrichtu-ids.github.io/allthingsfair 🔗](https://maastrichtu-ids.github.io/allthingsfair)**
+Access the website at **[https://maastrichtu-ids.github.io/fairificator 🔗](https://maastrichtu-ids.github.io/fairificator)**
 
 It uses the F-UJI API hosted at https://fuji-137-120-31-148.sslip.io/fuji/api/v1/ui
 
@@ -21,8 +21,8 @@ Requirements:  [npm](https://www.npmjs.com/get-npm) and [yarn](https://classic.y
 Clone the repository, and get in the folder:
 
 ```bash
-git clone https://github.com/MaastrichtU-IDS/allthingsfair 
-cd allthingsfair
+git clone https://github.com/MaastrichtU-IDS/fairificator 
+cd fairificator
 ```
 
 Install dependencies :inbox_tray:
@@ -47,7 +47,7 @@ yarn upgrade
 
 ## Run in production 🛩️
 
-This website is automatically deployed by a [GitHub Actions worklow](https://github.com/MaastrichtU-IDS/allthingsfair/actions?query=workflow%3A%22Deploy+to+GitHub+Pages%22) to GitHub Pages at https://maastrichtu-ids.github.io/allthingsfair
+This website is automatically deployed by a [GitHub Actions worklow](https://github.com/MaastrichtU-IDS/fairificator/actions?query=workflow%3A%22Deploy+to+GitHub+Pages%22) to GitHub Pages at https://maastrichtu-ids.github.io/fairificator
 
 You can build locally in the `/web-build` folder, and serve on [http://localhost:5000](http://localhost:5000)
 

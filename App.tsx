@@ -42,7 +42,7 @@ const theme = createTheme({
 
 const App = () => (
   <MuiThemeProvider theme={theme}>
-    <Router basename="/allthingsfair/">
+    <Router basename="/fairificator/">
     {/* <HashRouter> */}
       <View style={{height: '100%', backgroundColor: '#eceff1'}}>
         <NavBar />

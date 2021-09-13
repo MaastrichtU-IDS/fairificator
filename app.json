@@ -1,8 +1,8 @@
 {
     "expo": {
-      "name": "All Things FAIR evaluations",
+      "name": "FAIRificator",
       "description": "Evaluate how FAIR is a resource URL with the F-UJI API (Findable, Accessible, Interoperable, Reusable)",
-      "slug": "allthingsfair ",
+      "slug": "fairificator ",
       "privacy": "public",
       "sdkVersion": "35.0.0",
       "platforms": ["web"],

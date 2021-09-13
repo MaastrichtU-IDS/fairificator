@@ -68,7 +68,7 @@ export default function Footer() {
           <Typography variant="body2" >
             This website is licensed under the&nbsp;
             <a className={classes.whiteLink} target="_blank"
-            href="https://github.com/MaastrichtU-IDS/allthingsfair/blob/main/LICENSE">
+            href="https://github.com/MaastrichtU-IDS/fairificator/blob/main/LICENSE">
               MIT license
             </a>
             {/* <img src={require('../assets/images/mit_license.png')} /> */}

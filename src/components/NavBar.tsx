@@ -44,7 +44,7 @@ export default function NavBar() {
     <AppBar title="" position='static'>
       <Toolbar variant='dense'>
         <Link to="/" className={classes.linkLogo}>
-          <Tooltip title='All Things FAIR evaluation tool ☑️'>
+          <Tooltip title='☑️ FAIRificator'>
             <img src={iconImage} style={{height: '2em', width: '2em', marginRight: '10px'}} alt="Logo" />
           </Tooltip>
         </Link>
@@ -66,7 +66,7 @@ export default function NavBar() {
         </Link>
         <Tooltip title='Source code'>
           <Button className={classes.menuButton} target="_blank"
-          href="https://github.com/MaastrichtU-IDS/allthingsfair ">
+          href="https://github.com/MaastrichtU-IDS/fairificator ">
             <GitHubIcon />
           </Button>
         </Tooltip>
