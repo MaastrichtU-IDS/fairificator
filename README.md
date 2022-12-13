@@ -2,7 +2,7 @@
 
 [![Deploy to GitHub Pages](https://github.com/MaastrichtU-IDS/fairificator/workflows/Deploy%20website%20to%20GitHub%20Pages/badge.svg)](https://github.com/MaastrichtU-IDS/fairificator/actions/workflows/deploy-github.yml) [![CodeQL analysis](https://github.com/MaastrichtU-IDS/fairificator/workflows/CodeQL%20analysis/badge.svg)](https://github.com/MaastrichtU-IDS/fairificator/actions/workflows/codeql-analysis.yml)
 
-Evaluate how FAIR (Findable, Accessible, Interoperable, Reusable) is a resource URL with the [FAIRsFAIR F-UJI API](https://github.com/pangaea-data-publisher/fuji)
+Evaluate how FAIR (Findable, Accessible, Interoperable, Reusable) a resource URL is with the [FAIRsFAIR F-UJI API](https://github.com/pangaea-data-publisher/fuji)
 
 Built with [TypeScript](https://www.typescriptlang.org/), [React](https://reactjs.org/), and [Material-UI](https://material-ui.com/). Deployed as a static website on [GitHub Pages](https://pages.github.com/).
 
