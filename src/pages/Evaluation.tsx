@@ -432,7 +432,7 @@ export default function Evaluation() {
   return(
     <Container className='mainContainer'>
       <Typography variant="h4" style={{textAlign: 'center', marginBottom: theme.spacing(4)}}>
-        ⚖️ Evaluate how FAIR is a resource 🔗
+        ⚖️ Evaluate how FAIR a resource is 🔗
       </Typography>
 
       {/* Form to provide the URL to evaludate */}
