@@ -1,7 +1,7 @@
 {
     "expo": {
       "name": "FAIRificator",
-      "description": "Evaluate how FAIR is a resource URL with the F-UJI API (Findable, Accessible, Interoperable, Reusable)",
+      "description": "Evaluate how FAIR a resource URL is with the F-UJI API (Findable, Accessible, Interoperable, Reusable)",
       "slug": "fairificator ",
       "privacy": "public",
       "sdkVersion": "35.0.0",
