@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "88681df946ab6daaff1e",
-    "url": "/fairificator/static/js/app.2c6a5aec.chunk.js"
+    "revision": "84a319d3f90faf965585",
+    "url": "/fairificator/static/js/app.233f46ee.chunk.js"
   },
   {
     "revision": "7a8dcece613d6ca8f726",
     "url": "/fairificator/static/js/runtime~app.ad2da09b.js"
   },
   {
-    "revision": "df8b2f7c3d7d70a86a77",
-    "url": "/fairificator/static/js/2.fc6e356a.chunk.js"
+    "revision": "ab511614e1d2ad12126b",
+    "url": "/fairificator/static/js/2.14b94542.chunk.js"
   },
   {
     "revision": "951e6ef1c62c25b9b10b081968119584",
     "url": "/fairificator/static/media/icon.72626586.png"
   },
   {
-    "revision": "dc5ea689067db60658e92682b3f53c41",
+    "revision": "e1bc6afaeb32ea73ea2ba7a43d5c2f49",
     "url": "/fairificator/index.html"
   },
   {
@@ -33,7 +33,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "6d27e9b12da6cfd2b00bcff22b632746",
-    "url": "/fairificator/static/js/2.fc6e356a.chunk.js.LICENSE.txt"
+    "url": "/fairificator/static/js/2.14b94542.chunk.js.LICENSE.txt"
   },
   {
     "revision": "e78221aba04ce077cb705ff3c8d2bc05",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/fairificator/favicon.ico"
   },
   {
-    "revision": "d2dd76f4d07911678ec5a9129f76bd60",
+    "revision": "30a39104373cfb82eeecc4ee37c9d078",
     "url": "/fairificator/manifest.json"
   }
 ];
